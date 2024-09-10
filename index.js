@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     spaceBetween: 0,
     mousewheel: true,
     effect: "creative",
-    speed: 600,
+    speed: 500,
     creativeEffect: {
       prev: {
         shadow: true,
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
       opacity:1
     }, {
       opacity: 0,
-      duration: 0.6,
+      duration: 0.5,
     }, 0)
 
 
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
       opacity:0
     }, {
       opacity: 1,
-      duration: 0.6,
+      duration: 0.5,
     }, 0)
 
     return tl;
