@@ -45,18 +45,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const tl = gsap.timeline({
     });
 
-    tl.fromTo(slidePrevItem.querySelector('img'), {
-      opacity:1
-    }, {
-      opacity: 0,
-      duration: 0.5,
-    }, 0)
-
-
     tl.fromTo(slideActiveItem.querySelector('img'), {
       opacity:0
     }, {
       opacity: 1,
+      duration: 0.5,
+    }, 0)
+
+    tl.fromTo(slidePrevItem.querySelector('img'), {
+      opacity:1
+    }, {
+      opacity: 0,
       duration: 0.5,
     }, 0)
 
